@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="ajax/php/jquery/html geonames address">
+    <meta name="author" content="Hafizullah Karim">
+    <script type="application/javascript"  src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title> GeoNames Address</title>
+  </head>
+  <body>
+
+    <label for="vol"> latidue (-90<span>&#176;</span> to 90<span>&#176;</span>)</label>
+    <input type="number"  class="lat" id="lat" name="vol" min="-90" max="90">
+
+    <label for="vol2"> longitude (0<span>&#176;</span> to 180<span>&#176;</span>)</label>
+    <input type="number"  class="lat" id="lng" name="vol2" min="0" max="180">
+
+    <button id="btnRun" > find address</button>
+
+    <p>houseNumber: <span id="houseNumber"></span><p>
+    <p>street: <span id="street"></span><p>
+    <p>postalcode: <span id="postalcode"></span><p>
+    <p>locality: <span id="locality"></span><p>
+    <p>countryCode: <span id="countryCode"></span><p>
+
+      <div id="error"> </div>
+
+
+
+
+      <script type="text/javascript" src="libs/js/scripts.js"></script>
+  </body>
+</html>
